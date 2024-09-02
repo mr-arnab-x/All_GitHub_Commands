@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Git Commands</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Basic Git Commands</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="basic-commands.html">Basic Git Commands</a></li>
+                <li><a href="github-commands.html">GitHub Specific Commands</a></li>
+                <li><a href="branch-management.html">Branch Management</a></li>
+                <li><a href="undoing-changes.html">Undoing Changes</a></li>
+                <li><a href="git-tags.html">Git Tags</a></li>
+                <li><a href="git-submodules.html">Git Submodules</a></li>
+                <li><a href="git-hooks.html">Git Hooks</a></li>
+                <li><a href="miscellaneous.html">Miscellaneous Commands</a></li>
+                <li><a href="advanced-github-commands.html">Advanced GitHub Commands</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <h2>Basic Git Commands</h2>
+
+        <div class="command">
+            <h3><code>git init</code></h3>
+            <p>Initializes a new Git repository in the current directory.</p>
+            <p><strong>Example:</strong> <code>git init</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git clone</code></h3>
+            <p>Copies a remote repository to your local machine.</p>
+            <p><strong>Example:</strong> <code>git clone https://github.com/username/repository.git</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git add</code></h3>
+            <p>Stages changes to be committed in the next commit.</p>
+            <p><strong>Example:</strong> <code>git add filename</code> or <code>git add .</code> to stage all changes</p>
+        </div>
+
+        <div class="command">
+            <h3><code>git commit</code></h3>
+            <p>Records staged changes in the repository’s history.</p>
+            <p><strong>Example:</strong> <code>git commit -m "Commit message"</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git status</code></h3>
+            <p>Shows the status of changes as untracked, modified, or staged.</p>
+            <p><strong>Example:</strong> <code>git status</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git log</code></h3>
+            <p>Displays the commit history for the repository.</p>
+            <p><strong>Example:</strong> <code>git log</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git branch</code></h3>
+            <p>Lists all branches in the repository and highlights the current branch.</p>
+            <p><strong>Example:</strong> <code>git branch</code> (list branches) or <code>git branch branch-name</code> (create a new branch)</p>
+        </div>
+
+        <div class="command">
+            <h3><code>git checkout</code></h3>
+            <p>Switches to another branch or restores working tree files.</p>
+            <p><strong>Example:</strong> <code>git checkout branch-name</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git merge</code></h3>
+            <p>Merges changes from one branch into another.</p>
+            <p><strong>Example:</strong> <code>git merge branch-name</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git remote</code></h3>
+            <p>Manages the set of repositories ("remotes") whose branches you track.</p>
+            <p><strong>Example:</strong> <code>git remote -v</code> (view remotes) or <code>git remote add origin https://github.com/username/repository.git</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git push</code></h3>
+            <p>Uploads local commits to a remote repository.</p>
+            <p><strong>Example:</strong> <code>git push origin branch-name</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git pull</code></h3>
+            <p>Fetches and merges changes from the remote repository to your local repository.</p>
+            <p><strong>Example:</strong> <code>git pull origin branch-name</code></p>
+        </div>
+
+        <div class="command">
+            <h3><code>git fetch</code></h3>
+            <p>Downloads objects and refs from another repository.</p>
+            <p><strong>Example:</strong> <code>git fetch origin</code></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Git and GitHub Guide. Created for educational purposes.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
